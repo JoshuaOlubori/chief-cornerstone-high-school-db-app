@@ -20,7 +20,7 @@
 
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/JoshuaOlubori/chief-cornerstone-high-school-db-app/blob/55203c7219a4eb2bcf22e319cc2160c20a2bce56/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.usvg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/joshua-edun
 
 
