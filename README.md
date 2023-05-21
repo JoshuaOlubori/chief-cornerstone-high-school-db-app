@@ -10,12 +10,11 @@
 -->
 
 
-![MySQL](https://img.shields.io/static/v1?style=for-the-
-badge&message=MySQL&color=4479A1&logo=MySQL&logoColor=FFFFFF&label=)
-![Flask](https://img.shields.io/static/v1?style=for-the-
-badge&message=Flask&color=000000&logo=Flask&logoColor=FFFFFF&label=)
-![Jinja](https://img.shields.io/static/v1?style=for-the-
-badge&message=Jinja&color=B41717&logo=Jinja&logoColor=FFFFFF&label=)
+![MySQL](https://img.shields.io/static/v1?style=for-the-badge&message=MySQL&color=4479A1&logo=MySQL&logoColor=FFFFFF&label=)
+
+![Flask](https://img.shields.io/static/v1?style=for-the-badge&message=Flask&color=000000&logo=Flask&logoColor=FFFFFF&label=)
+
+![Jinja](https://img.shields.io/static/v1?style=for-the-badge&message=Jinja&color=B41717&logo=Jinja&logoColor=FFFFFF&label=)
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -55,10 +54,10 @@ badge&message=Jinja&color=B41717&logo=Jinja&logoColor=FFFFFF&label=)
   
 ## About The Project 🍪 
 
-![code](https://github.com/JoshuaOlubori/UK-Road-Accident-Casualties/blob/ddb49a64610e84d36ded41d2096050e7a2f3c183/report.png)
+![code](https://github.com/JoshuaOlubori/chief-cornerstone-high-school-db-app/blob/ac6fd5436c7207f3a1d16a963857462c30cebb5e/screenshots/Screenshot%20(18).png)
 
-Code segment
 <a name="requirement"/>
+  
 ### Requirement Gathering
 
 School needs to move away from storing data on Excel files and adopt an automated way of managing personnel data
@@ -69,19 +68,19 @@ School needs to move away from storing data on Excel files and adopt an automate
   
 ## Creating the database 📂
 
-![erd](https://github.com/JoshuaOlubori/UK-Road-Accident-Casualties/blob/ddb49a64610e84d36ded41d2096050e7a2f3c183/report.png)
+![erd](https://github.com/JoshuaOlubori/chief-cornerstone-high-school-db-app/blob/ac6fd5436c7207f3a1d16a963857462c30cebb5e/database%20files/ERD.png)
 
 I designed a 25-table normalized database holding data ranging from examinations data, staff salary, student class history to student, teacher and staff data.
 
 Deciding how to store personnel data was quite the challenge. I wanted a way to organize the student, guardian, teacher and staff in an hierarchy under a person table with the added complexity of the teacher table being a child table to the staff table.
 
-I was ultimately able to solve this problem with stored procedures which enabled me to write complicated logic in SQL that perform operations like check for existence of records before insertion etc. The code for the stored procedures can be studied to view my solution
+I was ultimately able to solve this problem with stored procedures which enabled me to write complicated logic in SQL that perform operations like check for existence of records before insertion etc. The [code](https://github.com/JoshuaOlubori/chief-cornerstone-high-school-db-app/tree/ac6fd5436c7207f3a1d16a963857462c30cebb5e/database%20files/stored%20procedures) for the stored procedures can be studied to view my solution
   
 <a name="application"/>
   
 ### Flask App 📱
   
-Using the Blueprint feature of Flask, I organized my app into 4 main modules: auth, forms, models and views. View the code here
+Using the Blueprint feature of Flask, I organized my app into 4 main modules: auth, forms, models and views. View the [code](https://github.com/JoshuaOlubori/chief-cornerstone-high-school-db-app/tree/ac6fd5436c7207f3a1d16a963857462c30cebb5e/app) here
 
 
   <a name="screenshots"/>
