@@ -87,9 +87,11 @@ Using the Blueprint feature of Flask, I organized my app into 4 main modules: au
   
 ### Screenshots 📸
 
-![screenshots](https://github.com/JoshuaOlubori/UK-Road-Accident-Casualties/blob/ddb49a64610e84d36ded41d2096050e7a2f3c183/report.png)
+![screenshots](https://github.com/JoshuaOlubori/chief-cornerstone-high-school-db-app/blob/43b8ddbc69f94566bfa222bd258c976abe4f7d0b/screenshots/Screenshot%20(15).png)
+  
+![screenshots](https://github.com/JoshuaOlubori/chief-cornerstone-high-school-db-app/blob/43b8ddbc69f94566bfa222bd258c976abe4f7d0b/screenshots/Screenshot%20(16).png)
 
-
+![screenshots](https://github.com/JoshuaOlubori/chief-cornerstone-high-school-db-app/blob/43b8ddbc69f94566bfa222bd258c976abe4f7d0b/screenshots/Screenshot%20(17).png)
 
 <!-- CONTACT  ☎️ -->
 
