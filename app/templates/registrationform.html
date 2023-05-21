@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block page_content %}
+
+{% from "_formhelpers.html" import render_field %}
+<form method="POST">
+    <dl class="col-5">
+        {{ form.hidden_tag() }}
+        {% if form.id %}
+        {{ render_field(form.id, class="form-control") }}
+        {% endif %}
+
+        {{ render_field(form.first_name, class="form-control") }}
+        {{ render_field(form.last_name, class="form-control") }}
+        {{ render_field(form.dob, class="form-control") }}
+        {{ render_field(form.blood_group, class="form-control") }}
+        {{ render_field(form.genotype, class="form-control") }}
+        {{ render_field(form.religion, class="form-control", placeholder="Choose...") }}
+        {{ render_field(form.address, class="form-control") }}
+        {{ render_field(form.phone, class="form-control") }}
+
+        {% if form.s_phone%}
+        {{ render_field(form.s_phone, class="form-control") }}
+        {% endif %}
+
+        {{ render_field(form.ethnicity, class="form-control") }}
+        {{ render_field(form.city_town, class="form-control") }}
+        {{ render_field(form.medical, class="form-control") }}
+
+        {% if form.bonus %}
+        {{ render_field(form.bonus, class="form-control") }}
+        {% endif %}
+
+        {% if form.dept_id %}
+        {{ render_field(form.dept_id, class="form-control") }}
+        {% endif %}
+
+        {% if form.class_id %}
+        {{ render_field(form.class_id, class="form-control") }}
+        {% endif %}
+
+
+    </dl>
+    <p><input type="submit" value="Register"></p>
+</form>
+
+{% for message in get_flashed_messages() %}
+<div class="alert alert-warning">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    {{ message }}
+</div>
+{% endfor %}
+{% endblock %}
+
